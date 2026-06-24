@@ -33,3 +33,11 @@ body {
 .card:hover {
     transform: translateY(-10px);
 }
+
+.left {
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
